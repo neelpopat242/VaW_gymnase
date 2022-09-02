@@ -56,3 +56,13 @@ body{
     border: #000 1px solid;
     
 }
+
+.accordion-css{
+    background-color:  #27255a !important;
+
+}
+
+.accordion-css-header{
+    background-color:  #27255a !important;
+    color: aliceblue;
+}
