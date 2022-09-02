@@ -17,7 +17,7 @@ const Values = () => {
                         <div className='row  '>
                             <div className='d-flex justify-content-center  align-self-center '>
                                 <a class="btn btn-primary mx-3" style={{ color: "yellow", fontSize: "1.5rem" }}><FaCrown /></a>
-                                <h1 className='text-center text-white'>Our Programs</h1>
+                                <h1 className='text-center text-white'>Values</h1>
                                 
                             </div>
                             <small className='text-white my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
