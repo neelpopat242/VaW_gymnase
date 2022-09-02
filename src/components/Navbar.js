@@ -6,7 +6,7 @@ import { GoThreeBars } from 'react-icons/go'
 import '../CSS/file.css'
 const Navbar = () => {
     return (
-        <nav className='navbar' style={{ backgroundColor : "#33ffff"}} >
+        <nav className='navbar' style={{ backgroundColor : "#0289f3"}} >
             <div className='container  '>
                 <Link to="/" className='logo '>
                 <a class="navbar-brand" href="#">
@@ -20,8 +20,8 @@ const Navbar = () => {
                 {
                     links.map(({ name, path }, index) => {
                         return (
-                            <li class="nav-item mx-4">
-                                <NavLink to={path} className={({isActive})=> isActive ? 'active-nav-item' : ''}>{name}</NavLink>
+                            <li class="nav-item mx-4 " >
+                                <NavLink to={path} style={{color : "white"}} className={({isActive})=> isActive ? 'active-nav-item ' : ''}>{name}</NavLink>
                             </li>
                         )
                     })

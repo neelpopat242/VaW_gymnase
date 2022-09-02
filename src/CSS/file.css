@@ -41,3 +41,18 @@ body{
     width: 80%;
     height: auto;
 }
+
+
+.card-css{
+    background-color: #27255a !important ;
+    border-radius: 10%;
+    border-radius: 15px 50px;
+
+
+}
+
+.card-css:hover{
+    background-color: transparent !important;
+    border: #000 1px solid;
+    
+}
