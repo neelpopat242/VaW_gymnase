@@ -39,7 +39,7 @@ const Testimonials = () => {
             return(
               Testimonialindex && 
               <>
-              <Card style={{ width: '22rem' }} key = {id} >
+              <Card className='card-css' style={{ width: '22rem' }} key = {id} >
 
                 
           <Card.Body>
