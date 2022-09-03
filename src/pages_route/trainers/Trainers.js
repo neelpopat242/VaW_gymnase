@@ -5,6 +5,7 @@ import {AiOutlineInstagram} from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import {BsFacebook} from 'react-icons/bs'
 import  {AiFillTwitterCircle} from 'react-icons/ai'
+import Footer from '../../components/Footer'
 const Trainers = () => {
 
 
@@ -16,6 +17,7 @@ const Trainers = () => {
   const Trainer6 = require('../../images/trainer6.jpg')
   
   return (
+    <>
     <div className='container'>
       
       <div className='row '>
@@ -49,6 +51,8 @@ const Trainers = () => {
         
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

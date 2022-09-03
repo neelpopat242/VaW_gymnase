@@ -3,7 +3,9 @@ import '../../CSS/file.css'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>Contact
+      <Footer/>
+    </div>
   )
 }
 
