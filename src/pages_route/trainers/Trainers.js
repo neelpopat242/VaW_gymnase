@@ -27,7 +27,7 @@ const Trainers = () => {
                 <>
                 <div className='col-md-1'></div>
                 <div className='col-md-4  py-3 my-2 '>
-                  <div class="card "  key={id}>
+                  <div class="card card-css text-white"  key={id}>
                     <img src={image} className="card-img-top mx-4 px-3 my-3  " style={{width : "80%", height : "50%" }} />
                     <div class="card-body">
                       <h5 class="card-title text-center">{name}</h5>

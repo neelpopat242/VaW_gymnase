@@ -10,7 +10,7 @@ const Values = () => {
             <div className="container my-5 py-5">
                 <div className='row'>
                     <div className='col-4'>
-                        <img src={Img_jpg} alt="values" className="px-3 py-4 my-3"style={{ width: "100%", height: "90%" }} />
+                        <img src={Img_jpg} alt="values" className="px-3 py-4 my-3" style={{ width: "100%", height: "90%" }} />
                     </div>
                     <div className='col-1'></div>
                     <div className='col-7'>
