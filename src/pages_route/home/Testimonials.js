@@ -45,7 +45,7 @@ const Testimonials = () => {
           <Card.Body>
             <Card.Title>{name}</Card.Title>
             <h6>
-              {job}
+              {job}g
             </h6>
             <Card.Text>
               {quote}
