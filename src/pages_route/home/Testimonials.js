@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { IoIosPeople } from 'react-icons/io'
@@ -8,22 +8,42 @@ import { testimonials } from '../../data';
 
 
 const Testimonials = () => {
-  const [Testimonialindex, setTestimonialindex] = useState(1);
+  const [Testimonialindex, setTestimonialindex] = useState(0);
+  const [testdata, settestdata] = useState(testimonials[Testimonialindex]);
+
+  useEffect(() => {
+    const lastIndex = testimonials.length - 1;
+    if (Testimonialindex < 0) {
+      setTestimonialindex(lastIndex);
+    }
+    if (Testimonialindex > lastIndex) {
+      setTestimonialindex(0);
+    }
+    settestdata(testimonials[Testimonialindex]);
+  }, [Testimonialindex]);
+
+
 
   const fwdtestimonial = () => {
-    setTestimonialindex(Testimonialindex+1);
-    if(Testimonialindex>=5){
-      setTestimonialindex(1);
+    setTestimonialindex(Testimonialindex + 1);
+    if (Testimonialindex >= testimonials.length - 1) {
+      setTestimonialindex(0);
+      console.log(Testimonialindex);
+
     }
-    console.log(Testimonialindex);
+    settestdata(testimonials[Testimonialindex]);
+    // console.log(Testimonialindex);
   }
 
   const bktestimonial = () => {
-    setTestimonialindex(Testimonialindex-1);
-    if(Testimonialindex<=0){
-      setTestimonialindex(5);
+    console.log(Testimonialindex);
+    setTestimonialindex(Testimonialindex - 1);
+    if (Testimonialindex <= 0) {
+      setTestimonialindex(4);
+      console.log(Testimonialindex);
     }
     console.log(Testimonialindex);
+    settestdata(testimonials[Testimonialindex]);
 
   }
   return (
@@ -34,42 +54,47 @@ const Testimonials = () => {
       </div>
       <div className='my-5 py-3 d-flex justify-content-center align-self-center text-center'>
 
-        {
-          testimonials.map(   ({id, name,job,quote,avatar})  => {
-            return(
-              Testimonialindex && 
-              <>
-              <Card className='card-css' style={{ width: '22rem' }} key = {id} >
 
-                
-          <Card.Body>
-            <Card.Title>{name}</Card.Title>
-            <h6>
-              {job}g
-            </h6>
-            <Card.Text>
-              {quote}
-            </Card.Text>
-          </Card.Body>
-          <div className='row py-4'>
-            <div className='col-3'></div>
-            <div className='col-3'>
-              <Button variant="primary" onClick={bktestimonial}><FaBackward /></Button>
+
+
+        <>
+          <div className='card-css test-white' style={{ width: '22rem' }}  >
+            <>
+            <div className='row'>
+              <div className='col-md-4'>
+              </div>
+              <div className='col-md-4'>
+              <img variant="top" src={testdata.avatar} className="img-style-testimonial"  />
+              </div>
+
             </div>
-            <div className='col-3 '>
-              <Button variant="primary" onClick={fwdtestimonial}><FaForward /></Button>
+              
+              <h3>{testdata.name}</h3>
+              <h6>
+                {testdata.job}
+              </h6>
+              <small className='text-white'>
+                {testdata.quote}
+              </small>
+            </>
+            <div className='row py-4'>
+              <div className='col-3'></div>
+              <div className='col-3'>
+                <Button variant="primary" onClick={bktestimonial}><FaBackward /></Button>
+              </div>
+              <div className='col-3 '>
+                <Button variant="primary" onClick={fwdtestimonial}><FaForward /></Button>
+              </div>
+
             </div>
 
           </div>
 
-        </Card>
-                
-              </>
-            )
-          } )
+        </>
 
-        }
-        
+
+
+
 
 
 

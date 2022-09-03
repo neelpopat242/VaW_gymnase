@@ -47,6 +47,7 @@ body{
     background-color: #27255a !important ;
     border-radius: 10%;
     border-radius: 15px 50px;
+    color: aliceblue;
 
 
 }
@@ -65,4 +66,9 @@ body{
 .accordion-css-header{
     background-color:  #27255a !important;
     color: aliceblue;
+}
+
+.img-style-testimonial {
+    align-items: center;
+    border-radius: 50%;
 }
