@@ -10,8 +10,8 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gallery",
-        path: '/gallery'
+        name: "Gym Locations",
+        path: '/gyms'
     },
     {
         name: "Plans",
@@ -22,8 +22,8 @@ export const links = [
         path: '/trainers'
     },
     {
-        name: "Contact",
-        path: '/contact'
+        name: "Become Gym partner",
+        path: '/partner'
     }
 ]
 
@@ -215,7 +215,7 @@ export const plans = [
     {
         id: 2,
         name: 'Gold Package',
-        desc: 'This is the perfect package for beginners who know what their doing',
+        desc: 'This is the perfect package for beginners what their doing',
         price: 49.99,
         features: [
             {feature: 'First Feature', available: true},

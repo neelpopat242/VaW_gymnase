@@ -7,8 +7,8 @@ import  {AiFillTwitterCircle} from 'react-icons/ai'
 import { trainers } from '../data'
 const Footer = () => {
   return (
-    <div div style={{ backgroundColor : "#0289f3"}}>
-    <div className="" >
+    <div  style={{ backgroundColor : "#0289f3"}}>
+    <div className="py-5" >
         <div className='row text-white py-5  mx-4'>
             <div className='col-md-4 text-white'>
                 
