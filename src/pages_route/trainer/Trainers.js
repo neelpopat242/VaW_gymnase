@@ -26,25 +26,25 @@ const Trainers = () => {
           {
             trainers.map(({ id,image,name,job,socials}) => {
               return (
-                <div key={id}>
+                <>
                 <div className='col-md-1'></div>
                 <div className='col-md-4  py-3 my-2 '>
-                  <div className="card card-css text-white"  key={id}>
+                  <div class="card card-css text-white"  key={id}>
                     <img src={image} className="card-img-top mx-4 px-3 my-3  " style={{width : "80%", height : "50%" }} />
-                    <div className="card-body">
-                      <h5 className="card-title text-center">{name}</h5>
-                      <h5 className="card-title text-center">{job}</h5>
+                    <div class="card-body">
+                      <h5 class="card-title text-center">{name}</h5>
+                      <h5 class="card-title text-center">{job}</h5>
                       <div className='d-flex justify-content-center'>
-                      <a href={socials[0]} className="btn btn-danger mx-3 my-2"><AiOutlineInstagram/></a>
-                      <a href={socials[1]} className="btn btn-primary mx-3 my-2"><AiFillTwitterCircle/></a>
-                      <a href={socials[2]} className="btn btn-primary mx-3 my-2 "><BsFacebook/></a>
-                      <a href={socials[3]} className="btn btn-primary mx-3   my-2"><AiOutlineLinkedin/></a>
+                      <a href={socials[0]} class="btn btn-danger mx-3 my-2"><AiOutlineInstagram/></a>
+                      <a href={socials[1]} class="btn btn-primary mx-3 my-2"><AiFillTwitterCircle/></a>
+                      <a href={socials[2]} class="btn btn-primary mx-3 my-2 "><BsFacebook/></a>
+                      <a href={socials[3]} class="btn btn-primary mx-3   my-2"><AiOutlineLinkedin/></a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className='col-md-1'></div>
-                </div>
+                </>
               )
             })
           }
