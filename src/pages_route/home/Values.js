@@ -16,7 +16,7 @@ const Values = () => {
                     <div className='col-7'>
                         <div className='row  '>
                             <div className='d-flex justify-content-center  align-self-center '>
-                                <a class="btn btn-primary mx-3" style={{ color: "yellow", fontSize: "1.5rem" }}><FaCrown /></a>
+                                <a className="btn btn-primary mx-3" style={{ color: "yellow", fontSize: "1.5rem" }}><FaCrown /></a>
                                 <h1 className='text-center text-white'>Values</h1>
                                 
                             </div>
@@ -29,17 +29,17 @@ const Values = () => {
                             {
                                 values.map(({ id, icon, title, desc }) => {
                                     return (
-                                        <>
-                                            <div className='col-6 my-3 py-4 px-4 text-center'>
-                                                <div class="card-css text-white  py-3" key={id}>
-                                                    <div class="card-body">
+                                        
+                                            <div className='col-6 my-3 py-4 px-4 text-center' key={id}>
+                                                <div className="card-css text-white  py-3" key={id}>
+                                                    <div className="card-body">
                                                         <a className='btn btn-primary'>{icon}</a>
-                                                        <h6 class="card-title my-3">{title}</h6>
-                                                        <small class="card-text my-2">{desc}</small>
+                                                        <h6 className="card-title my-3">{title}</h6>
+                                                        <small className="card-text my-2">{desc}</small>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </>
+                                        
                                     )
                                 })
 

@@ -49,7 +49,7 @@ const Testimonials = () => {
   return (
     <div className='container my-5'>
       <div className='d-flex justify-content-center  align-self-center '>
-        <a class="btn btn-primary mx-3" style={{ color: "gold", fontSize: "1.5rem" }}><IoIosPeople /></a>
+        <a className="btn btn-primary mx-3" style={{ color: "gold", fontSize: "1.5rem" }}><IoIosPeople /></a>
         <h1 className='text-center text-white'>Testimonials</h1>
       </div>
       <div className='my-5 py-3 d-flex justify-content-center align-self-center text-center'>

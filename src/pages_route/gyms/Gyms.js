@@ -15,9 +15,9 @@ const Gyms = () => {
 
 
       <div className="container border rounded my-5">
-      <form class="d-flex py-2 mx-3" role="search">
-      <h4 className='mx-2 text-white'><AiOutlineSearch /></h4><input class="form-control border-0 bg-transparent  " type="search" placeholder="Search" aria-label="Search"/>
-        <button className='btn btn-danger mx-2'><GoLocation/></button><button class="btn btn-danger mx-2" type="submit">Search</button>
+      <form className="d-flex py-2 mx-3" role="search">
+      <h4 className='mx-2 text-white'><AiOutlineSearch /></h4><input className="form-control border-0 bg-transparent  " type="search" placeholder="Search" aria-label="Search"/>
+        <button className='btn btn-danger mx-2'><GoLocation/></button><button className="btn btn-danger mx-2" type="submit">Search</button>
       </form>
       </div>
       <div className='row'>

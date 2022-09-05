@@ -19,7 +19,7 @@ const Plans = () => {
       {
         plans.map(({ id, name, desc, price, features }) => {
           return (
-            <div className='col-md-4 text-center text-white' style={{}}>
+            <div className='col-md-4 text-center text-white' style={{}} key={id}>
             <Card  className="card-css text-center mx-3 px-3"   key={id} >
               <h3 className='py-3'>
                 {name}
@@ -35,9 +35,9 @@ const Plans = () => {
 
             </h4>
             {
-              features.map((feature) => {
+              features.map((feature, idx) => {
                 return (
-                  <div className='my-2'>
+                  <div className='my-2' key={idx}>
                     <small className={feature.available ? 'text-white': 'text-white-50'}>
                       {feature.feature}
                     </small>

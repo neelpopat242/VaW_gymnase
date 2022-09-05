@@ -23,7 +23,7 @@ const Header = () => {
                             Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit vLorem ipsum dolor sit 
                         </p>
                         <Link to ="/plans">
-                        <button type="button" class="btn btn-primary my-5">Get Started</button>
+                        <button type="button" className="btn btn-primary my-5">Get Started</button>
                         </Link>
                     </div>
                     <div className='col-md-1   '>

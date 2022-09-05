@@ -11,20 +11,20 @@ const ClientReportChart = () => {
 
         </div>
         <div className="col-2">
-          <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart orange">
-              <path class="circle-bg"
+          <div className="single-chart">
+            <svg viewBox="0 0 36 36" className="circular-chart orange">
+              <path className="circle-bg"
                 d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
               />
-              <path class="circle"
+              <path className="circle"
                 stroke-dasharray="60, 100"
                 d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
               />
-              <text x="18" y="20.35" class="percentage">60%</text>
+              <text x="18" y="20.35" className="percentage">60%</text>
             </svg>
           </div>
           <h4 className='text-white text-center'>increase in revenue </h4>
@@ -33,20 +33,20 @@ const ClientReportChart = () => {
 
         </div>
         <div className="col-2">
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart orange">
-              <path class="circle-bg"
+        <div className="single-chart">
+            <svg viewBox="0 0 36 36" className="circular-chart orange">
+              <path className="circle-bg"
                 d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
               />
-              <path class="circle"
+              <path className="circle"
                 stroke-dasharray="40, 100"
                 d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
               />
-              <text x="18" y="20.35" class="percentage">40%</text>
+              <text x="18" y="20.35" className="percentage">40%</text>
             </svg>
           </div>
           <h4 className='text-white text-center'>increase in sales</h4>
@@ -56,20 +56,20 @@ const ClientReportChart = () => {
 
         </div>
         <div className="col-2">
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart orange">
-              <path class="circle-bg"
+        <div className="single-chart">
+            <svg viewBox="0 0 36 36" className="circular-chart orange">
+              <path className="circle-bg"
                 d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
               />
-              <path class="circle"
+              <path className="circle"
                 stroke-dasharray="30, 100"
                 d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
               />
-              <text x="18" y="20.35" class="percentage">30%</text>
+              <text x="18" y="20.35" className="percentage">30%</text>
             </svg>
           </div>
           <h4 className='text-white text-center'>increase in Physical</h4>

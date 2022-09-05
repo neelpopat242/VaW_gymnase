@@ -9,9 +9,9 @@ const Navbar = () => {
         <nav className='navbar' style={{ backgroundColor : "#0289f3"}} >
             <div className='container  '>
                 <Link to="/" className='logo '>
-                <a class="navbar-brand" href="#">
+                <div className="navbar-brand" href="#">
                 <img src={Logo} alt="logo" style={{width : "50%" , display:"block", paddingTop: "30px"}}  />
-                </a>
+                </div>
             </Link>
             
             <div className='justify-content-end d-flex  '>
@@ -20,7 +20,7 @@ const Navbar = () => {
                 {
                     links.map(({ name, path }, index) => {
                         return (
-                            <li class="nav-item mx-4 " >
+                            <li className="nav-item mx-4 " key={index} >
                                 <NavLink to={path} style={{color : "white"}} className={({isActive})=> isActive ? 'active-nav-item ' : ''}>{name}</NavLink>
                             </li>
                         )

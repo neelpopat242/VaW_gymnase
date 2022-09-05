@@ -14,7 +14,7 @@ const WhyUs = () => {
         <div className='col-md-2  '>
           <div className='card  bg-transparent'>
             <div className=''>
-            <div class="circle my-4 mx-4">500+ </div>
+            <div className="circle my-4 mx-4">500+ </div>
               <h5 className='text-center my-4'>WTF exclusive inapp workout demos</h5>
             </div>
           </div>
@@ -25,7 +25,7 @@ const WhyUs = () => {
         <div className='col-md-2  '>
           <div className='card  bg-transparent'>
             <div className=''>
-            <div class="circle my-4 mx-4">900+ </div>
+            <div className="circle my-4 mx-4">900+ </div>
               <h5 className='text-center my-4'>WTF Trained and Certified gurus</h5>
             </div>
           </div>
@@ -37,7 +37,7 @@ const WhyUs = () => {
         <div className='col-md-2  '>
           <div className='card  bg-transparent'>
             <div className=''>
-            <div class="circle my-4 mx-4">300+ </div>
+            <div className="circle my-4 mx-4">300+ </div>
               <h5 className='text-center my-4'>WTF curated diet plans</h5>
             </div>
           </div>
@@ -48,7 +48,7 @@ const WhyUs = () => {
         <div className='col-md-2  '>
           <div className='card  bg-transparent'>
             <div className=''>
-            <div class="circle my-4 mx-4">2000+ </div>
+            <div className="circle my-4 mx-4">2000+ </div>
               <h5 className='text-center my-4'>In-App Personalization </h5>
             </div>
           </div>

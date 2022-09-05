@@ -20,10 +20,10 @@ const Footer = () => {
 
 
                   <div className='d-flex justify-content-start my-3'>
-                      <a href={trainers[0].socials[0]} class="btn btn-danger mx-3 my-2"><AiOutlineInstagram/></a>
-                      <a href={trainers[0].socials[1]} class="btn btn-primary mx-3 my-2"><AiFillTwitterCircle/></a>
-                      <a href={trainers[0].socials[2]} class="btn btn-primary mx-3 my-2 "><BsFacebook/></a>
-                      <a href={trainers[0].socials[3]} class="btn btn-primary mx-3   my-2"><AiOutlineLinkedin/></a>
+                      <a href={trainers[0].socials[0]} className="btn btn-danger mx-3 my-2"><AiOutlineInstagram/></a>
+                      <a href={trainers[0].socials[1]} className="btn btn-primary mx-3 my-2"><AiFillTwitterCircle/></a>
+                      <a href={trainers[0].socials[2]} className="btn btn-primary mx-3 my-2 "><BsFacebook/></a>
+                      <a href={trainers[0].socials[3]} className="btn btn-primary mx-3   my-2"><AiOutlineLinkedin/></a>
                       </div>
             </div>
             <div className='col-md-1'>
