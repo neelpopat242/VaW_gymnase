@@ -10,7 +10,7 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gym Locations",
+        name: "Gyms",
         path: '/gyms'
     },
     {
@@ -22,7 +22,7 @@ export const links = [
         path: '/trainers'
     },
     {
-        name: "Become Gym partner",
+        name: "Affiliation",
         path: '/partner'
     }
 ]

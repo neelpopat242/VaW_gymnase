@@ -1,12 +1,12 @@
 import React from 'react'
 import '../../CSS/file.css'
 import Footer from '../../components/Footer'
-const Contact = () => {
+const Partner = () => {
   return (
-    <div>Contact
+    <div>
       <Footer/>
     </div>
   )
 }
 
-export default Contact
+export default Partner

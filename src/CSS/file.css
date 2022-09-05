@@ -17,11 +17,11 @@ body {
 .active-nav-item::after {
   content: "";
   display: block;
-  width: 4rem;
+  width: 5rem;
   height: 0.2rem;
   background-color: red;
   position: absolute;
-  left: calc(50% - 2rem);
+  left: calc(50% - 2.5rem);
 }
 
 .button-nav {

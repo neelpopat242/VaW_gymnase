@@ -1,6 +1,6 @@
 
 import Home from './pages_route/home/Home';
-import Partner from './pages_route/partner/partner';
+import Partner from './pages_route/partner/Partner';
 import About from './pages_route/about/About';
 import Gyms from './pages_route/gyms/Gyms';
 import Plans from './pages_route/plans/Plans';
