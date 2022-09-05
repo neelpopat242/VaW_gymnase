@@ -63,7 +63,6 @@ const Filter = () => {
           </Dropdown.Item>
           <Dropdown.Item href="#/action-2">New Delhi </Dropdown.Item>
           <Dropdown.Item href="#/action-3">Ghaziabad</Dropdown.Item>
-          
           <Dropdown.Item href="#/action-4">Delhi</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

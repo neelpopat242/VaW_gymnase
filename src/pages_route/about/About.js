@@ -8,7 +8,6 @@ const About = () => {
   return (
     <div>
       <div className=''><Gen_Header img={Headerimg}  title="About Us"/></div>
-      
       <Footer/>
     </div>
   )
